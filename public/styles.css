@@ -40,14 +40,6 @@ p::after {
     content:'</p>'
 }
 
-*::before {
-'<' name() '>'
-}
-
-*::after {
-'<\/' name() '>'
-}
-
 html::before {content:'<html>'}
 html::after {content:'</html>'}
 head::before {content:'<head>'}
